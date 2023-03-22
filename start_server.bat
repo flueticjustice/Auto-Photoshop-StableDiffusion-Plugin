@@ -31,6 +31,7 @@ set VENV_DIR=%~dp0server_env
 set PYTHON="%VENV_DIR%\Scripts\Python.exe"
 %PYTHON% -m pip install -r requirements.txt
 
+
 cd ./server/python_server
 echo python path: %PYTHON%
 dir
